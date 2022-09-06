@@ -1,5 +1,19 @@
 #container0-1 {
   background-image: url("../../../../src/images/home/01.jpg");
+
+  .container2 {
+    padding-block: 13rem 3rem;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    a {
+      padding: 1rem 2.25rem;
+      border: 2px solid;
+      border-radius: 5px;
+    }
+  }
 }
 
 #container0-2 {
