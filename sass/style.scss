@@ -1,6 +1,11 @@
+@import "./variables.scss";
+
+::-webkit-scrollbar {
+  display: none;
+}
 
 
-.container-fluid {
+div.container-fluid {
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
@@ -25,6 +30,40 @@ nav {
   img {
     height: 2.4rem;
     margin-right: 1.25rem;
+  }
+}
+
+footer {
+  background-color: black;
+  
+  ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+
+    min-height: 3.75rem;
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style-type: none;
+      font-size: 0.75rem;
+      font-weight: 600;
+      
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover {
+          color: $hover-color;
+        }
+      }
+
+      #copyright-text {
+        color: $copyright-color;
+      }
+    } 
   }
 }
 
