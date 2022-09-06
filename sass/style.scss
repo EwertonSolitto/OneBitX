@@ -1,0 +1,43 @@
+
+
+.container-fluid {
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+
+  .header .container {
+    padding: 0;
+  }
+}
+
+.header{
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+
+nav { 
+  height: 3rem;
+  
+  img {
+    height: 2.4rem;
+    margin-right: 1.25rem;
+  }
+}
+
+/* Pages */
+
+@import "./pages/index.scss";
+@import "./pages/falcon9.scss";
+@import "./pages/humanFlight.scss";
+
+/* Bootstrap */
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+/* Variables */
+
+@import "./variables.scss";
