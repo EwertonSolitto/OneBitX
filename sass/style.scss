@@ -9,6 +9,7 @@ div.container-fluid {
   background-size: cover;
   background-position: 50%;
   background-repeat: no-repeat;
+  color: white;
 
   padding: 0;
   width: 100%;
@@ -43,17 +44,26 @@ div.container-fluid {
 	font-weight: bold;
 }
 
-nav { 
+nav {
   height: 3rem;
   
   img {
     height: 2.4rem;
     margin-right: 1.25rem;
   }
+
+  a.nav-link {
+    color: white;
+    
+    &:hover {
+      color: $hover-color;
+    }
+  }
 }
 
 footer {
   background-color: black;
+  color: white;
   
   ul {
     display: flex;
