@@ -1,3 +1,25 @@
 #container1-1 {
   background-image: url("../../../../src/images/falcon9/01.jpg");
+
+  #falcon9 {
+    font-size: 5.75rem;
+    font-weight: bold;
+  }
+
+  .container2 {
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+#container1-2 {
+  background-image: url("../../../../src/images/falcon9/02.jpg");
+}
+
+#container1-4 {
+  background-image: url("../../../../src/images/falcon9/08.jpg");
+}
+
+#container1-6 {
+  background-color: black;
 }
