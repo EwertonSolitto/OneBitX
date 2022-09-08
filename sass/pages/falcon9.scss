@@ -56,6 +56,57 @@
   }
 }
 
+#container1-4 {
+  .container2 {
+    justify-content: flex-start;
+    gap: 0;
+    
+    max-width: 31.25rem;
+    margin-left: 12.75rem;
+  }
+
+  p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  h4 {
+    font-size: 1.75rem;
+  }
+
+  h5 {
+    font-size: 1.125rem;
+    font-weight: 400;
+    
+    margin-bottom: 1rem;
+  }
+
+  .table {
+    max-width: 29.75rem;
+    color: white;
+
+    td:last-child {
+      text-align: end;
+    }
+  }
+  
+  #slide1 {
+    background-image: url("../../../../src/images/falcon9/03.jpg");
+  }
+  #slide2 {
+    background-image: url("../../../../src/images/falcon9/04.jpg");
+  }
+  #slide3 {
+    background-image: url("../../../../src/images/falcon9/05.jpg");
+  }
+  #slide4 {
+    background-image: url("../../../../src/images/falcon9/06.jpg");
+  }
+  #slide5 {
+    background-image: url("../../../../src/images/falcon9/07.jpg");
+  }
+}
+
 #container1-5 {
   background-image: url("../../../../src/images/falcon9/08.jpg");
 }
