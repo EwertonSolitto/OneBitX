@@ -56,7 +56,8 @@
   }
 }
 
-#container1-4 {
+#container1-4,
+#container1-5 {
   .container2 {
     justify-content: flex-start;
     gap: 0;
@@ -109,6 +110,16 @@
 
 #container1-5 {
   background-image: url("../../../../src/images/falcon9/08.jpg");
+}
+
+#container1-6 {  
+  p {
+    background-color: black;
+  }
+
+  .carousel-item img {
+    max-height: 100vh;
+  }
 }
 
 #container1-7 {
