@@ -1,3 +1,65 @@
 #container2-1 {
   background-image: url("../../../../src/images/humanFlight/01.jpg");
+  
+  .container2 {
+    gap: 1.25rem;
+  }
+
+  h1 {
+    font-size: 7.5rem;
+
+    margin-inline: auto;
+  }
+
+  p {
+    margin-inline: auto;
+    margin-bottom: 3.125rem;
+
+    font-size: 1.875rem;
+    font-weight: 300;
+  }
+}
+
+#container2-2 {
+  background-color: black;
+  min-height: 12.5rem;
+
+  color: #d8d8d8;
+  font-size: 1.25rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  p {
+    max-width: 50rem;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      color: lightgray;
+    }
+  }
+}
+
+#container2-3 {
+  background-image: url("../../../../src/images/humanFlight/02.jpg");
+}
+
+#container2-4 {
+  background-image: url("../../../../src/images/humanFlight/03.jpg");
+}
+
+#container2-5 {
+  background-image: url("../../../../src/images/humanFlight/04.jpg");
+}
+
+#container2-6 {
+  background-image: url("../../../../src/images/humanFlight/05.jpg");
 }

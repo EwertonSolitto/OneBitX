@@ -13,3 +13,12 @@
 #container0-4 {
   background-image: url("../../../../src/images/home/04.jpg");
 }
+
+#container0-1,
+#container0-2,
+#container0-3,
+#container0-4 {
+  .container2 a {
+    padding-inline: 2rem;
+  }
+}
