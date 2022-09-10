@@ -63,3 +63,51 @@
 #container2-6 {
   background-image: url("../src/images/humanFlight/05.jpg");
 }
+
+#container2-3,
+#container2-4,
+#container2-5,
+#container2-6 {
+  display: flex;
+  align-items: center;
+
+  .container {
+    height: initial;
+    padding-bottom: 5rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    div {
+      min-width: 36rem;
+    }
+
+    h6 {
+      margin-bottom: 1rem;
+
+      font-weight: 400;
+      line-height: normal;
+    }
+
+    h2 {
+      font-size: 3.75rem;
+      font-weight: bold;
+    }
+
+    p {
+      font-weight: 300;
+      margin-bottom: 2.5rem;
+    }
+
+    &.container-right {
+      align-items: flex-end;
+    }
+    
+    &.container-left {
+      align-items: flex-start;
+    }
+  }
+
+  
+}
