@@ -366,6 +366,10 @@ footer ul li #copyright-text {
   align-items: flex-start;
 }
 
+div.container-informations#container2-7 {
+  max-width: 100vh;
+}
+
 /* Bootstrap */
 /*!
  * Bootstrap  v5.2.1 (https://getbootstrap.com/)
