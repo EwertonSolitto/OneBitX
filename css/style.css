@@ -48,6 +48,10 @@ nav a.nav-link:hover {
   color: #b9b9b9;
 }
 
+.bi-chevron-down {
+  margin-inline: auto;
+}
+
 .carousel-item {
   min-height: 100vh;
   background-size: cover;
