@@ -91,7 +91,7 @@ footer ul {
   align-items: center;
   justify-content: center;
   gap: 1.5rem;
-  min-height: 3.75rem;
+  min-height: 7rem;
   padding: 0;
   margin: 0;
 }
@@ -367,7 +367,7 @@ footer ul li #copyright-text {
 }
 
 div.container-informations#container2-7 {
-  max-width: 100vh;
+  max-height: 100vh;
 }
 
 /* Bootstrap */
