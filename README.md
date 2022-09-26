@@ -12,9 +12,9 @@ Exercício do curso da OneBitCode para treinar Bootstrap e também Sass, refazen
 
 <hr/>
 
-## Exercício da OneBitCode para treinar o aprendizado em Bootstrap.
+## Páginas:
 
-<a href="https://onebitx.netlify.app/index.html">Site inspirado</a>
+<a href="https://onebitx.netlify.app/index.html">Site do exercício</a>
 
 <hr/>
 
