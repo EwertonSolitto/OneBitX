@@ -142,6 +142,54 @@ footer {
   }
 }
 
+/* Media Queries */
+
+@media (max-width: 992px) {
+  div.container-fluid {
+    .container2 div {
+        max-width: 36rem;
+      }
+    }
+}
+
+@media (max-width: 751px) {
+  div.container-fluid {
+    .container2 {
+        padding-top: 8rem;
+      }
+    }
+}
+
+@media (max-width: 580px) {
+  div.container-fluid {
+    padding-inline: 1rem;
+  }
+}
+
+@media (max-width: 406px) {
+  nav img {
+    height: 1.75rem;
+  }
+
+  footer ul {
+    min-height: 6rem;
+
+    li {
+      font-size: 0.6rem;
+    }
+  }
+
+  .bi-chevron-down {
+    display: none;
+  }
+}
+
+@media (max-width: 350px) {
+  nav img {
+    height: 1.5rem
+  }
+}
+
 /* Pages */
 
 @import "./pages/home.scss";
