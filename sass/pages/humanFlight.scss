@@ -3,20 +3,21 @@
   
   .container2 {
     gap: 1.25rem;
-  }
+    text-align: center;
 
-  h1 {
-    font-size: 7.5rem;
-
-    margin-inline: auto;
-  }
-
-  p {
-    margin-inline: auto;
-    margin-bottom: 3.125rem;
-
-    font-size: 1.875rem;
-    font-weight: 300;
+    h1 {
+      font-size: 7.5rem;
+  
+      margin-inline: auto;
+    }
+  
+    p {
+      margin-inline: auto;
+      margin-bottom: 3.125rem;
+  
+      font-size: 1.875rem;
+      font-weight: 300;
+    }
   }
 }
 
@@ -34,6 +35,7 @@
 
   p {
     max-width: 50rem;
+    max-width: auto;
     text-align: center;
   }
 
@@ -79,10 +81,6 @@
     justify-content: center;
     flex-direction: column;
 
-    div {
-      min-width: 36rem;
-    }
-
     h6 {
       margin-bottom: 1rem;
 
@@ -102,6 +100,11 @@
 
     &.container-right {
       align-items: flex-end;
+
+      div {
+        padding-left: 1rem;
+        max-width: 42%;
+      }
     }
     
     &.container-left {
@@ -110,6 +113,100 @@
   } 
 }
 
-div.container-informations#container2-7 {
-  max-height: 100vh;
+@media (max-width: 1024px) {
+  #container2-1 {
+    .container2 {
+      padding-top: 6rem;
+    
+      h1 {
+        padding-inline: 0;
+  
+        font-size: 6rem;
+      }
+    }
+  }
+
+  #container2-3,
+  #container2-4,
+  #container2-5,
+  #container2-6 {
+    .container {
+      div {
+        min-width: auto;
+      }
+      
+      h2 {
+        font-size: 3rem;
+        font-weight: bold;
+      }
+      
+      &.container-right {
+        div {
+          padding-left: 0;
+          max-width: 100%;
+  
+          align-items: flex-start;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  #container2-1 {
+    .container2 { 
+      h1 {
+        font-size: 4rem;
+      }
+
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  #container2-2 {
+    p {
+      font-size: 1rem;
+      max-width: 35rem;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  #container2-1 {
+    .container2 { 
+      padding-top: 12rem;
+
+      h1 {
+        font-size: 3rem;
+      }
+
+      p {
+        font-size: 1rem;
+      }
+    }
+  }
+  
+  #container2-2 {
+    p {
+      font-size: 0.9rem;
+      max-width: 30rem;
+    }
+  }
+}
+
+@media (max-width: 407px) {
+  #container2-1 {
+    .container2 { 
+      padding-top: 14rem;
+      h1 {
+        font-size: 2.5rem;
+      }
+
+      p {
+        font-size: 0.95rem;
+      }
+    }
+  }
 }
