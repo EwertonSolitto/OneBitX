@@ -1,5 +1,6 @@
 @charset "UTF-8";
-/* Variables */ /* New colors */
+/* Variables */
+/* New colors */
 /* Styles */
 body {
   overflow-x: hidden;
@@ -212,6 +213,7 @@ footer ul li #copyright-text {
   justify-content: space-between;
   flex-direction: row;
   padding-inline: 2rem;
+  text-align: center;
 }
 #container1-2 #number-datas div {
   display: flex;
@@ -296,25 +298,52 @@ footer ul li #copyright-text {
 #container1-5 {
   background-image: url("../src/images/falcon9/08.jpg");
 }
+#container1-5 .container2 {
+  padding-block: 10rem;
+}
 
 #container1-6 p {
   background-color: black;
 }
 #container1-6 .carousel-item img {
-  max-height: 100vh;
+  min-height: 100vh;
 }
 
 @media (max-width: 1024px) {
   #container1-3 .container.container2 p {
     font-size: 1.5rem;
   }
+  #container1-4 .container2,
+#container1-5 .container2 {
+    margin-left: 6rem;
+    text-shadow: 0.5px 0.5px black;
+  }
 }
-@media (max-width: 600) {
+@media (max-width: 768px) {
+  #container1-2 #number-datas {
+    flex-direction: column;
+  }
+  #container1-3 .container.container2 p {
+    font-size: 1.25rem;
+  }
+  #container1-4,
+#container1-5 {
+    padding-inline: 0;
+  }
+  #container1-4 .container2,
+#container1-5 .container2 {
+    margin-inline: auto;
+  }
+  #container1-6 {
+    padding-inline: 0;
+  }
+}
+@media (max-width: 600px) {
   #container1-1 .container2 #falcon9 {
     font-size: 4rem;
   }
   #container1-1 .container2 h5, #container1-1 .container2 .h5 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 #container2-1 {

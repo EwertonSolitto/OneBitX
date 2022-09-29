@@ -31,6 +31,8 @@
 
     padding-inline: 2rem;
 
+    text-align: center;
+
     div {
       display: flex;
       align-items: center;
@@ -118,6 +120,10 @@
 
 #container1-5 {
   background-image: url("../src/images/falcon9/08.jpg");
+
+  .container2 {
+    padding-block: 10rem;
+  }
 }
 
 #container1-6 {  
@@ -126,7 +132,7 @@
   }
 
   .carousel-item img {
-    max-height: 100vh;
+    min-height: 100vh;
   }
 }
 
@@ -139,9 +145,46 @@
       }
     }
   }
+
+  #container1-4,
+  #container1-5 {
+    .container2 {
+      margin-left: 6rem;
+
+      text-shadow: 0.5px 0.5px black;
+    }
+  }
 }
 
-@media (max-width: 600) {
+@media (max-width: 768px) {
+  #container1-2 #number-datas{
+    flex-direction: column;
+  }
+
+  #container1-3 {
+    .container.container2{
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  }
+
+  #container1-4,
+  #container1-5 {
+    padding-inline: 0;
+
+    .container2 {
+      margin-inline: auto;
+    }
+  }
+
+  #container1-6 {
+    padding-inline: 0;
+  }
+}
+
+
+@media (max-width: 600px) {
   #container1-1 {
     
     .container2 {
@@ -150,7 +193,7 @@
       }
 
       h5 {
-        font-size: 1.25rem;
+        font-size: 1rem;
       }
     }
   }
