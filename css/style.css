@@ -41,6 +41,7 @@ div.container-fluid .container2 a, div.container-xxl .container2 a, div.containe
 
 nav {
   height: 3rem;
+  text-shadow: 0.5px 0.5px black;
 }
 nav img {
   height: 2.4rem;
@@ -196,6 +197,8 @@ footer ul li #copyright-text {
 #container1-1 .container2 {
   align-items: center;
   gap: 0.5rem;
+  text-align: center;
+  text-shadow: 0.5px 0.5px black;
 }
 
 #container1-2.container-fluid, #container1-2.container-xxl, #container1-2.container-xl, #container1-2.container-lg, #container1-2.container-md, #container1-2.container-sm {
@@ -225,6 +228,10 @@ footer ul li #copyright-text {
 
 #container1-3 {
   background-image: url("../src/images/falcon9/02.jpg");
+}
+#container1-3 .container2 {
+  padding-top: 8rem;
+  justify-content: center;
 }
 #container1-3 p {
   font-size: 1.375rem;
@@ -297,12 +304,26 @@ footer ul li #copyright-text {
   max-height: 100vh;
 }
 
+@media (max-width: 1024px) {
+  #container1-3 .container.container2 p {
+    font-size: 1.5rem;
+  }
+}
+@media (max-width: 600) {
+  #container1-1 .container2 #falcon9 {
+    font-size: 4rem;
+  }
+  #container1-1 .container2 h5, #container1-1 .container2 .h5 {
+    font-size: 1.25rem;
+  }
+}
 #container2-1 {
   background-image: url("../src/images/humanFlight/01.jpg");
 }
 #container2-1 .container2 {
   gap: 1.25rem;
   text-align: center;
+  text-shadow: 0.5px 0.5px black;
 }
 #container2-1 .container2 h1, #container2-1 .container2 .h1 {
   font-size: 7.5rem;
@@ -382,6 +403,7 @@ footer ul li #copyright-text {
   margin-bottom: 1rem;
   font-weight: 400;
   line-height: normal;
+  text-shadow: 0.5px 0.5px black;
 }
 #container2-3 .container h2, #container2-3 .container .h2,
 #container2-4 .container h2,
@@ -392,6 +414,7 @@ footer ul li #copyright-text {
 #container2-6 .container .h2 {
   font-size: 3.75rem;
   font-weight: bold;
+  text-shadow: 0.5px 0.5px black;
 }
 #container2-3 .container p,
 #container2-4 .container p,
@@ -399,6 +422,13 @@ footer ul li #copyright-text {
 #container2-6 .container p {
   font-weight: 300;
   margin-bottom: 2.5rem;
+  text-shadow: 0.5px 0.5px black;
+}
+#container2-3 .container a,
+#container2-4 .container a,
+#container2-5 .container a,
+#container2-6 .container a {
+  text-shadow: 0.5px 0.5px black;
 }
 #container2-3 .container.container-right,
 #container2-4 .container.container-right,
