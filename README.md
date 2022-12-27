@@ -4,9 +4,22 @@
 
 # About 📝
 
-https://ewertonsolitto.github.io/OneBitX/pages/index.html
+https://ewertonsolitto.github.io/OneBitX---Exercicio-usando-Bootstrap/pages/index.html
 
 Exercise of OneBitCode course to train Bootstrap and Sass, remaking a website with 3 pages, also using the Animate on Scroll Library.
+
+# Layout Web 🖥️
+
+<img src="https://github.com/EwertonSolitto/OneBitX/blob/main/src/images/README/Desktop1.png" />
+<img src="https://github.com/EwertonSolitto/OneBitX/blob/main/src/images/README/Desktop2.png" />
+
+# Layout Mobile 📱
+
+
+<p>
+  <img src="https://github.com/EwertonSolitto/OneBitX/blob/main/src/images/README/mobile1.jpg" width="412"/>
+  <img src="https://github.com/EwertonSolitto/OneBitX/blob/main/src/images/README/mobile2.jpg" width="412"/>
+</p>
 
 # Tecnologies ⚡
 
