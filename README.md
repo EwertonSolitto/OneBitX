@@ -22,8 +22,17 @@ Exercise of OneBitCode course to train Bootstrap and Sass, remaking a website wi
 
 ```bash
 # Clone repository
-git clone https://github.com/EwertonSolitto/RocketBlog.git
+git clone https://github.com/EwertonSolitto/OneBitX.git
 
-# Open
+# Install dependencies
+npm i
+
+# Install Sass
+npm i -g sass
+
+# Run Sass
+npm run sass
+
+# Open index
 pages/index.html
 ```
