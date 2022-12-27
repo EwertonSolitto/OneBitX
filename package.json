@@ -1,0 +1,23 @@
+{
+  "name": "onebitx",
+  "version": "1.0.0",
+  "description": "[![LICENSE](https://img.shields.io/npm/l/react)](https://github.com/EwertonSolitto/OneBitX/blob/main/LICENSE)",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch sass/style.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EwertonSolitto/OneBitX.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EwertonSolitto/OneBitX/issues"
+  },
+  "homepage": "https://github.com/EwertonSolitto/OneBitX#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.0-alpha1"
+  }
+}
