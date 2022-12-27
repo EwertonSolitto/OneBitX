@@ -1,21 +1,29 @@
-# OneBitX Exercicio usando Bootstrap
+# OneBitX 🚀
 
-Exercício do curso da OneBitCode para treinar Bootstrap e também Sass, refazendo um site com 3 páginas com responsividade para mobile. Usando também uma lib de animação de texto, o AOS (Animate On Scroll Library).
+[![LICENSE](https://img.shields.io/npm/l/react)](https://github.com/EwertonSolitto/OneBitX/blob/main/LICENSE)
 
-## Tecnologias usadas:
+# About 📝
 
-• <strong>BOOTSTRAP</strong>
-<br/>
-• SASS
-<br/>
-• HTML
+https://ewertonsolitto.github.io/OneBitX---Exercicio-usando-Bootstrap/pages/index.html
 
-<hr/>
+Exercise of OneBitCode course to train Bootstrap and Sass, remaking a website with 3 pages, also using the Animate on Scroll Library.
 
-## Páginas:
+# Tecnologies ⚡
 
-<a href="https://onebitx.netlify.app/index.html">Site do exercício</a>
+- BOOTSTRAP
 
-<hr/>
+- SASS
 
-<a href="https://ewertonsolitto.github.io/OneBitX---Exercicio-usando-Bootstrap/pages/index.html">Resultado final</a>
+- HTML
+
+- AOS
+
+# Installation 🔧
+
+```bash
+# Clone repository
+git clone https://github.com/EwertonSolitto/RocketBlog.git
+
+# Open
+pages/index.html
+```
