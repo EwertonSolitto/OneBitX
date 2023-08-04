@@ -4,7 +4,7 @@
 
 # About 📝
 
-https://ewertonsolitto.github.io/OneBitX---Exercicio-usando-Bootstrap/pages/index.html
+https://ewertonsolitto.github.io/OneBitX/pages/index.html
 
 Exercise of OneBitCode course to train Bootstrap and Sass, remaking a website with 3 pages, also using the Animate on Scroll Library.
 
